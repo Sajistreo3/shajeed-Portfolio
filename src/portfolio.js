@@ -3,12 +3,15 @@ import emoji from 'react-easy-emoji';
 import googlelogo from './assets/img/icons/common/google.svg'
 import github from './assets/img/icons/common/github.svg'
 import airbnb from './assets/img/icons/common/airbnbLogo.png'
+import bad from './assets/img/icons/common/bad.png'
+import sway from './assets/img/icons/common/sway.png'
+
 
 export const greetings = {
     "name": "Shajeed Islam",
     "title": "Hi all, I'm Shajeed",
-    "description": "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-    "resumeLink": "https://cv.shajeed.pdf"
+    "description": "A passionate Full Stack Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / PHP / Java / React Naaive for Mobile App and some other cool libraries and frameworks.",
+    "resumeLink": "./src/assets/docs/bad.png"
 }
 
 export const openSource = {
@@ -36,7 +39,7 @@ export const skillsSection = {
       ),
       emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
       emoji(
-        '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+        '⚡ Integration of third party services such as AWS / Digital Ocean'
       ),
     ],
     
@@ -49,20 +52,16 @@ export const skillsSection = {
         skillName: 'css3',
         fontAwesomeClassname: 'vscode-icons:file-type-css',
       },
-      // {
-      //   skillName: 'sass',
-      //   fontAwesomeClassname: 'logos:sass',
-      // },
       {
         skillName: 'JavaScript',
         fontAwesomeClassname: 'logos:javascript',
       },
       {
-        skillName: 'TypeScript',
-        fontAwesomeClassname: 'logos:typescript-icon',
+        skillName: 'reactjs',
+        fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
       },
       {
-        skillName: 'reactjs',
+        skillName: 'reactNative',
         fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
       },
       {
@@ -70,16 +69,20 @@ export const skillsSection = {
         fontAwesomeClassname: 'logos:nodejs-icon',
       },
       {
-        skillName: 'flutter',
-        fontAwesomeClassname: 'logos:flutter',
+        skillName: 'PHP',
+        fontAwesomeClassname: 'vscode-icons:file-type-php',
       },
       {
-        skillName: 'swift',
-        fontAwesomeClassname: 'vscode-icons:file-type-swift',
+        skillName: 'Java',
+        fontAwesomeClassname: 'vscode-icons:file-type-java',
       },
       {
-        skillName: 'npm',
-        fontAwesomeClassname: 'vscode-icons:file-type-npm',
+        skillName: 'CSharp',
+        fontAwesomeClassname: 'vscode-icons:file-type-csharp',
+      },
+      {
+        skillName: 'MySQL',
+        fontAwesomeClassname: 'vscode-icons:file-type-mysql',
       },
       {
         skillName: 'sql-database',
@@ -90,31 +93,55 @@ export const skillsSection = {
         fontAwesomeClassname: 'vscode-icons:file-type-mongo',
       },
       {
-        skillName: 'aws',
-        fontAwesomeClassname: 'logos:aws',
-      },
-      {
         skillName: 'firebase',
         fontAwesomeClassname: 'logos:firebase',
-      },
-      {
-        skillName: 'python',
-        fontAwesomeClassname: 'logos:python',
       },
       {
         skillName: 'git',
         fontAwesomeClassname: 'logos:git-icon',
       },
       {
-        skillName: 'docker',
-        fontAwesomeClassname: 'logos:docker-icon',
+        skillName: 'npm',
+        fontAwesomeClassname: 'vscode-icons:file-type-npm',
       },
-    ],
-}
-
-
-export const SkillBars = [
-    {
+      {
+        skillName: 'XML',
+        fontAwesomeClassname: 'vscode-icons:file-type-xml',
+      },
+      // {
+      //   skillName: 'sass',
+      //   fontAwesomeClassname: 'logos:sass',
+      // },
+      // {
+      //   skillName: 'TypeScript',
+      //   fontAwesomeClassname: 'logos:typescript-icon',
+      // },
+      // {
+      //   skillName: 'flutter',
+      //   fontAwesomeClassname: 'logos:flutter',
+      // },
+      // {
+      //   skillName: 'swift',
+      //   fontAwesomeClassname: 'vscode-icons:file-type-swift',
+      // },
+      // {
+      //   skillName: 'aws',
+      //   fontAwesomeClassname: 'logos:aws',
+      // },
+      // {
+      //   skillName: 'python',
+      //   fontAwesomeClassname: 'logos:python',
+      // },
+      // {
+      //   skillName: 'docker',
+      //   fontAwesomeClassname: 'logos:docker-icon',
+      // },
+        ],
+      }
+      
+      
+      export const SkillBars = [
+        {
       Stack: 'Frontend/Design', //Insert stack or technology you have experience in
       progressPercentage: '70', //Insert relative proficiency in percentage
     },
@@ -133,78 +160,72 @@ export const educationInfo = [
       schoolName: 'Herzing College',
       subHeader: 'Full-Stack Developer',
       duration: 'June 2019 - August 2020',
-      desc: 'Participated in the research of XXX and published 3 papers.',
+      desc: 'This Institution trained me to become a Full-stack developer',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'As front-end, I mainly learned Web-dev using React HTML and CSS',
+        'On the Back-end side, I have learned Java and PHP with OOP',
       ],
     },
     {
-      schoolName: 'Harvard',
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
+      schoolName: "Ecole National D'Aerotechnique",
+      subHeader: 'DEC Genie Aerospacial',
+      duration: 'January 2017 - May 2019',
+      desc: 'Learned in aeronautics ',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetfgur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Learned about Engines',
+        'Learned about aerodynamics and more',
       ],
     },
-    {
-      schoolName: 'Stanford University',
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit'],
-    },
+    
 ]
 
 export const experience = [
   {
-    role: 'Software Engineer',
-    company: 'Google',
-    companylogo: googlelogo,
-    date: 'June 2018 – Present',
+    role: 'Junior Full-Stack developer',
+    company: 'Brossard App Design',
+    companylogo: bad,
+    date: 'August 2020 – Present',
     desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Participated on the developm',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Mobile app Development in React Native',
+      'Web Development with PHP, NodeJS, Javascript',
     ],
   },
   {
-    role: 'Front-End Developer',
-    company: 'Github',
-    companylogo: github,
-    date: 'May 2017 – May 2018',
+    role: 'Freelance Full-Stack Developer',
+    company: 'Sway',
+    companylogo: sway,
+    date: 'November 2019 – Present',
     desc:
-      'Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'As a Freelancer i develope and find solution of what client asks. with Softweres in Java and mobile application in React Native.',
   },
-  {
-    role: 'Software Engineer Intern',
-    company: 'Airbnb',
-    companylogo: airbnb,
-    date: 'Jan 2015 – Sep 2015',
-    desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
+  // {
+  //   role: 'Software Engineer Intern',
+  //   company: 'Airbnb',
+  //   companylogo: airbnb,
+  //   date: 'Jan 2015 – Sep 2015',
+  //   desc:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  // },
 ]
 
 export const projects = [
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-  },
-  {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-  },
-  {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    name: "GestionAHT",
+    desc: "It's a project of making a website for a client where I had to show case his gas stations and his team, and the most important part is " + 
+    "there is a back-end made in PHP with a user CRUD system and a Evaluaion system for the client's solution to be able to do inspentions with his phone or PC and export it as PDF.",
     link: {
-      name: "Shajeed",
-      url: "kasjfklsdjf"
+      name: "Website",
+      url: "https://gestionaht.ca/"
     }
-  }
+  },
+  {
+    name: "Restaurant Delivery System",
+    desc: "A Windows Softwere witha Front-end using Java Swing and Back-end with Java using Object Oriented Programming, structurized in MVC.",
+  },
+  {
+    name: "TimeBox",
+    desc: "Participated for the Front-end development for a mobile application in React Native.",
+  },
 ]
