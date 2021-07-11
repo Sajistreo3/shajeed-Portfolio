@@ -1,17 +1,17 @@
 import emoji from 'react-easy-emoji';
 
-import googlelogo from './assets/img/icons/common/google.svg'
-import github from './assets/img/icons/common/github.svg'
-import airbnb from './assets/img/icons/common/airbnbLogo.png'
+// import googlelogo from './assets/img/icons/common/google.svg'
+// import github from './assets/img/icons/common/github.svg'
+// import airbnb from './assets/img/icons/common/airbnbLogo.png'
 import bad from './assets/img/icons/common/bad.png'
 import sway from './assets/img/icons/common/sway.png'
-
+import cv from './assets/docs/cv.pdf'
 
 export const greetings = {
     "name": "Shajeed Islam",
     "title": "Hi all, I'm Shajeed",
-    "description": "A passionate Full Stack Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / PHP / Java / React Naaive for Mobile App and some other cool libraries and frameworks.",
-    "resumeLink": "./src/assets/docs/bad.png"
+    "description": "A passionate Full Stack Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / PHP / Java / React Naive for Mobile App and some other cool libraries and frameworks.",
+    "resumeLink": cv
 }
 
 export const openSource = {
