@@ -10,7 +10,7 @@ import cv from './assets/docs/cv.pdf'
 export const greetings = {
     "name": "Shajeed Islam",
     "title": "Hi all, I'm Shajeed",
-    "description": "A passionate Full Stack Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / PHP / Java / React Naive for Mobile App and some other cool libraries and frameworks.",
+    "description": "A passionate Full Stack Developer and Mobile App Developer having experience in building Web applications with JavaScript / Reactjs / Nodejs / PHP / Java / React Native for Mobile App and some other cool libraries and frameworks.",
     "resumeLink": cv
 }
 
@@ -162,7 +162,7 @@ export const educationInfo = [
       duration: 'June 2019 - August 2020',
       desc: 'This Institution trained me to become a Full-stack developer',
       descBullets: [
-        'As front-end, I mainly learned Web-dev using React HTML and CSS',
+        'As for front-end, I mainly learned Web-dev using React HTML and CSS',
         'On the Back-end side, I have learned Java and PHP with OOP',
       ],
     },
@@ -186,7 +186,7 @@ export const experience = [
     companylogo: bad,
     date: 'August 2020 – Present',
     desc:
-      'Participated on the developm',
+      'Participated on the development',
     descBullets: [
       'Mobile app Development in React Native',
       'Web Development with PHP, NodeJS, Javascript',
@@ -198,7 +198,7 @@ export const experience = [
     companylogo: sway,
     date: 'November 2019 – Present',
     desc:
-      'As a Freelancer i develope and find solution of what client asks. with Softweres in Java and mobile application in React Native.',
+      'As a Freelancer, I develop and find the solution to what the client asks. with Software in Java and mobile application in React Native.',
   },
   // {
   //   role: 'Software Engineer Intern',
@@ -213,8 +213,8 @@ export const experience = [
 export const projects = [
   {
     name: "GestionAHT",
-    desc: "It's a project of making a website for a client where I had to show case his gas stations and his team, and the most important part is " + 
-    "there is a back-end made in PHP with a user CRUD system and a Evaluaion system for the client's solution to be able to do inspentions with his phone or PC and export it as PDF.",
+    desc: "It's a project of making a website for a client where I had to showcase his gas stations and his team, and the most important part is " + 
+    "there is a back-end made in PHP with a user CRUD system and an Evaluation system for the client's solution to be able to do inspections with his phone or PC and export it as PDF.",
     link: {
       name: "Website",
       url: "https://gestionaht.ca/"
@@ -222,10 +222,10 @@ export const projects = [
   },
   {
     name: "Restaurant Delivery System",
-    desc: "A Windows Softwere witha Front-end using Java Swing and Back-end with Java using Object Oriented Programming, structurized in MVC.",
+    desc: "A Windows Software with Front-end using Java Swing and Back-end with Java using Object-Oriented Programming, structured in MVC.",
   },
   {
     name: "TimeBox",
-    desc: "Participated for the Front-end development for a mobile application in React Native.",
+    desc: "Participated in the Front-end development for a mobile application in React Native.",
   },
 ]

@@ -20,7 +20,7 @@ const GithubProfileCard = ({prof}) => {
                     </Col>
                     <Col lg="8" className="order-lg-1">
                       <h2 className="text-white">
-                        Reach Out to me!
+                        Reach out to me!
                       </h2>
                       <p className="lead text-white mt-3">
                         DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL
