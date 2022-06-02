@@ -207,7 +207,7 @@ export const experience = [
   },
   {
     role: 'Freelance Full-Stack Developer',
-    company: 'Sway',
+    company: 'Tekmadev',
     companylogo: sway,
     date: 'November 2019 – Present',
     desc:
