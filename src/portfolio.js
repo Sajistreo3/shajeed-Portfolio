@@ -197,7 +197,7 @@ export const experience = [
     role: 'Junior Full-Stack developer',
     company: 'Brossard App Design',
     companylogo: bad,
-    date: 'August 2020 – Present',
+    date: 'August 2020 – March 2022',
     desc:
       'Participated on the development',
     descBullets: [
