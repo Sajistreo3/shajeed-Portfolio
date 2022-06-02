@@ -3,6 +3,7 @@ import emoji from 'react-easy-emoji';
 // import googlelogo from './assets/img/icons/common/google.svg'
 // import github from './assets/img/icons/common/github.svg'
 // import airbnb from './assets/img/icons/common/airbnbLogo.png'
+import lc from './assets/img/icons/common/lc.png'
 import bad from './assets/img/icons/common/bad.png'
 import sway from './assets/img/icons/common/sway.png'
 import cv from './assets/docs/cv.pdf'
@@ -181,10 +182,22 @@ export const educationInfo = [
 
 export const experience = [
   {
+    role: 'Full-Stack Web developer',
+    company: 'Linen Chest',
+    companylogo: lc,
+    date: 'August 2021 – Present',
+    desc:
+      'Working full time with Magento 2 for making Features and fixing Issues and bugs on the E-commerce website.',
+    descBullets: [
+      'E-commerce Development',
+      'Web Development with PHP, Magento 2',
+    ],
+  },
+  {
     role: 'Junior Full-Stack developer',
     company: 'Brossard App Design',
     companylogo: bad,
-    date: 'August 2020 – Present',
+    date: 'August 2020 – March 2022',
     desc:
       'Participated on the development',
     descBullets: [
