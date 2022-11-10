@@ -1,4 +1,5 @@
 import React from 'react';
+import '../assets/css/mystyle.css';
 
 import {
     Card,
@@ -23,6 +24,14 @@ const ProjectsCard = ({data}) => {
                     <p className="description mt-3">
                         {data.desc}
                     </p>
+                    <ul className='project-bullets'>
+                            {
+                                data.descBullets ? 
+                                data.descBullets.map((desc) => {
+                                    return <li key={desc}>{desc}</li> 
+                                }) : null
+                            }
+                    </ul>
                     {
                         data.link ? 
                         <Button
