@@ -9,8 +9,8 @@ import sway from './assets/img/icons/common/sway.png'
 import cv from './assets/docs/devCV.pdf'
 
 export const greetings = {
-    "name": "Sajeed Islam",
-    "title": "Hi all, I'm Sajeed",
+    "name": "Shajeed Islam",
+    "title": "Hi all, I'm Shajeed",
     "description": "A passionate Full Stack Developer and Mobile App Developer having experience in building Web applications with JavaScript / Reactjs / Nodejs / PHP / Java / React Native for Mobile App and some other cool libraries and frameworks.",
     "resumeLink": cv
 }
