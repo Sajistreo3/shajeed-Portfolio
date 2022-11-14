@@ -24,7 +24,7 @@ export const contact = {
 }
 
 export const socialLinks = {
-    "facebook": "https://www.facebook.com/shajeed.islam.99",
+    "facebook": "https://www.facebook.com/sajeed99",
     "instagram": "https://www.instagram.com/sajistreo3",
     "twitter": "https://twitter.com/shajeedul",
     "github": "https://github.com/Sajistreo3",
