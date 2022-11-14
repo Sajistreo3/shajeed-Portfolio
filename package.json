@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://Shajeed.ga"
   },
-  "homepage": "https://swayit.ca/",
+  "homepage": "https://www.shajeed.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
