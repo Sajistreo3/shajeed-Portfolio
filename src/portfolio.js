@@ -209,7 +209,7 @@ export const experience = [
     role: 'Freelance Full-Stack Developer',
     company: 'Tekmadev',
     companylogo: sway,
-    date: 'November 2019 – Jan 2021',
+    date: 'July 2019 – Jan 2021',
     desc:
       'As a Freelancer, I develop and find the solution to what the client asks. with Software in Java and mobile application in React Native.',
   },
@@ -227,6 +227,21 @@ export const projects = [
   {
     name: "Linen Chest",
     desc: 'the project is about an E-Commerce website at Linen Chest directly using Magento 2 with PHP, Front-End Develop with React',
+    descBullets: [
+      'Creating Features and new Idea implemention',
+      'Web Development with PHP, Magento 2 with MVC',
+      'Worked with the E-commerce website in the cart section in React JS using hooks',
+      'Fix Bugs and problems',
+      'working with admin panel and making new panels programmatically',
+    ],
+    link: {
+      name: "Website",
+      url: "https://www.linenchest.com/"
+    }
+  },
+  {
+    name: "WhatsUp - Even Organizer",
+    desc: 'the project is about a Mobile app ',
     descBullets: [
       'Creating Features and new Idea implemention',
       'Web Development with PHP, Magento 2 with MVC',
