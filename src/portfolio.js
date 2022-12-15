@@ -241,8 +241,8 @@ export const projects = [
     }
   },
   {
-    name: "WhatsUp - Even Organizer",
-    desc: 'the project is a Mobile app for Booking and get togather for Meetings and Events',
+    name: "WhatsUp - Event Organizer",
+    desc: 'the project is a Mobile app for Booking and get together for Meetings and Events',
     descBullets: [
       'Create different pages and implemented the back-end with Firebase',
       'Development with React Native and various different Libraries',
