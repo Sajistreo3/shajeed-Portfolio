@@ -241,13 +241,13 @@ export const projects = [
   },
   {
     name: "WhatsUp - Even Organizer",
-    desc: 'the project is about a Mobile app ',
+    desc: 'the project is a Mobile app for Booking and get to Gather for Meetings',
     descBullets: [
-      'Creating Features and new Idea implemention',
-      'Web Development with PHP, Magento 2 with MVC',
-      'Worked with the E-commerce website in the cart section in React JS using hooks',
+      'Create different pages and implemented the back-end with Firebase',
+      'Development with React Native and various different Libraries',
+      'Made Front-end usedull and reusable componants for Buttons, texts, and some layouts',
       'Fix Bugs and problems',
-      'working with admin panel and making new panels programmatically',
+      'Work in a team of Agile and Sprint methodd',
     ],
     link: {
       name: "Website",
