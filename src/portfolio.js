@@ -1,5 +1,6 @@
 import emoji from 'react-easy-emoji';
 
+
 // import googlelogo from './assets/img/icons/common/google.svg'
 // import github from './assets/img/icons/common/github.svg'
 // import airbnb from './assets/img/icons/common/airbnbLogo.png'
@@ -241,17 +242,17 @@ export const projects = [
   },
   {
     name: "WhatsUp - Even Organizer",
-    desc: 'the project is a Mobile app for Booking and get to Gather for Meetings',
+    desc: 'the project is a Mobile app for Booking and get togather for Meetings and Events',
     descBullets: [
       'Create different pages and implemented the back-end with Firebase',
       'Development with React Native and various different Libraries',
       'Made Front-end usedull and reusable componants for Buttons, texts, and some layouts',
       'Fix Bugs and problems',
-      'Work in a team of Agile and Sprint methodd',
+      'Work in a team of Agile and Sprint method',
     ],
     link: {
-      name: "Website",
-      url: "https://www.linenchest.com/"
+      name: "Screen Shot",
+      url: "https://drive.google.com/file/d/1At74CiFO1DVEH3mHnxXnZ7iiybynR75P/view?usp=share_link"
     }
   },
   {
