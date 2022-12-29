@@ -188,7 +188,7 @@ export const experience = [
     companylogo: lc,
     date: 'August 2021 – Present',
     desc:
-      'Working full time with Magento 2 for making Features and fixing Issues and bugs on the E-commerce website. with Scrum Agile Methodoly',
+      'Working full time with Magento 2 for making Features and fixing Issues and bugs on the E-commerce website with Scrum Agile Methodoly',
     descBullets: [
       'E-commerce Development',
       'Web Development with PHP, Magento 2',
@@ -200,7 +200,7 @@ export const experience = [
     companylogo: bad,
     date: 'August 2020 – March 2022',
     desc:
-      'Participated on the development',
+      'Worked on the development',
     descBullets: [
       'Mobile app Development in React Native',
       'Web Development with PHP, NodeJS, Javascript',
@@ -212,7 +212,7 @@ export const experience = [
     companylogo: sway,
     date: 'July 2019 – Jan 2021',
     desc:
-      'As a Freelancer, I develop and find the solution to what the client asks. with Software in Java and mobile application in React Native.',
+      'As a Freelancer, I develop and find the solution to what the client asks with Software in Java and mobile application in React Native.',
   },
   // {
   //   role: 'Software Engineer Intern',
@@ -227,13 +227,13 @@ export const experience = [
 export const projects = [
   {
     name: "Linen Chest",
-    desc: 'the project is about an E-Commerce website at Linen Chest directly using Magento 2 with PHP, Front-End Develop with React',
+    desc: 'The project is about an E-Commerce website at Linen Chest directly using Magento 2 with PHP, Front-End Development with React',
     descBullets: [
-      'Creating Features and new Idea implemention',
+      'Creating Features and new Idea implementation',
       'Web Development with PHP, Magento 2 with MVC',
       'Worked with the E-commerce website in the cart section in React JS using hooks',
       'Fix Bugs and problems',
-      'working with admin panel and making new panels programmatically',
+      'Working with admin panel and making new panels programmatically',
     ],
     link: {
       name: "Website",
@@ -242,11 +242,11 @@ export const projects = [
   },
   {
     name: "WhatsUp - Event Organizer",
-    desc: 'the project is a Mobile app for Booking and get together for Meetings and Events',
+    desc: 'The project is a Mobile app for Booking and get together for Meetings and Events',
     descBullets: [
       'Create different pages and implemented the back-end with Firebase',
       'Development with React Native and various different Libraries',
-      'Made Front-end usedull and reusable componants for Buttons, texts, and some layouts',
+      'Made Front-end usefull and reusable components for Buttons, texts, and some layouts',
       'Fix Bugs and problems',
       'Work in a team of Agile and Sprint method',
     ],
@@ -258,7 +258,7 @@ export const projects = [
   {
     name: "GestionAHT",
     desc: "It's a project of making a website for a client where I had to showcase his gas stations and his team, and the most important part is " + 
-    "there is a back-end made in PHP with a user CRUD system and an Evaluation system for the client's solution to be able to do inspections with his phone or PC and export it as PDF.",
+    "there is a back-end made in PHP with a user CRUD system and an Evaluation system for the client's solution to be able to do inspections with his phone or PC and export it as a PDF.",
   },
   {
     name: "Restaurant Delivery System",
