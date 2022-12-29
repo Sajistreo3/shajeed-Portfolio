@@ -25,6 +25,7 @@ export const contact = {
 }
 
 export const socialLinks = {
+    "mail": "mailto:shajeed0@gmail.com",
     "facebook": "https://www.facebook.com/sajeed99",
     "instagram": "https://www.instagram.com/sajistreo3",
     "twitter": "https://twitter.com/shajeedul",
