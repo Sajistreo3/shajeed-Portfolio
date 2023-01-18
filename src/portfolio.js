@@ -213,7 +213,7 @@ export const experience = [
     companylogo: sway,
     date: 'July 2019 – Jan 2021',
     desc:
-      'As a Freelancer, I develop and find the solution to what the client asks with Software in Java and mobile application in React Native.',
+      'As a Freelancer, I develop and find the solution to what the client asks with Software in Java and Created a PHP CMS Website and mobile application in React Native.',
   },
   // {
   //   role: 'Software Engineer Intern',
