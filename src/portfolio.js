@@ -146,15 +146,15 @@ export const skillsSection = {
       export const SkillBars = [
         {
       Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '70', //Insert relative proficiency in percentage
+      progressPercentage: '90', //Insert relative proficiency in percentage
     },
     {
       Stack: 'Backend',
-      progressPercentage: '80',
+      progressPercentage: '70',
     },
     {
       Stack: 'Programming',
-      progressPercentage: '90',
+      progressPercentage: '80',
     },
   ]
 
@@ -211,7 +211,7 @@ export const experience = [
     role: 'Freelance Full-Stack Developer',
     company: 'Tekmadev',
     companylogo: sway,
-    date: 'July 2019 – Jan 2021',
+    date: 'July 2019 – Present',
     desc:
       'As a Freelancer, I develop and find the solution to what the client asks with Software in Java and Created a PHP CMS Website and mobile application in React Native.',
   },
@@ -239,6 +239,22 @@ export const projects = [
     link: {
       name: "Website",
       url: "https://www.linenchest.com/"
+    }
+  },
+  {
+    name: "Sofan",
+    desc: 'The project is about an NFT Market website for Athletes built out of React and backend from Firebase. There is also a Social platform for submitting posts and polls where users can interact, like, comment, and share.',
+    descBullets: [
+      'Posts with polls',
+      'NFT collection from Athletes',
+      'Dashboard',
+      'Chating System',
+      'a full CRUD handled and hosted from Firebase',
+      'Verious pages like Home, Profile, Feed, Athetes, events, suggestions, and more!'
+    ],
+    link: {
+      name: "Link",
+      url: "https://www.sofan.app/"
     }
   },
   {
