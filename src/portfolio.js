@@ -7,7 +7,7 @@ import emoji from 'react-easy-emoji';
 import lc from './assets/img/icons/common/lc.png'
 import bad from './assets/img/icons/common/bad.png'
 import sway from './assets/img/icons/common/sway.png'
-import cv from './assets/docs/devCV.pdf'
+import cv from './assets/docs/2023CVShajeed.pdf'
 
 export const greetings = {
     "name": "Shajeed Islam",
