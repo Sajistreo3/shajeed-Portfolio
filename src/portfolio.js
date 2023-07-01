@@ -80,6 +80,10 @@ export const skillsSection = {
         fontAwesomeClassname: 'vscode-icons:file-type-java',
       },
       {
+        skillName: 'swift',
+        fontAwesomeClassname: 'vscode-icons:file-type-swift',
+      },
+      {
         skillName: 'CSharp',
         fontAwesomeClassname: 'vscode-icons:file-type-csharp',
       },
@@ -111,6 +115,10 @@ export const skillsSection = {
         skillName: 'XML',
         fontAwesomeClassname: 'vscode-icons:file-type-xml',
       },
+      {
+        skillName: 'docker',
+        fontAwesomeClassname: 'logos:docker-icon',
+      },
       // {
       //   skillName: 'sass',
       //   fontAwesomeClassname: 'logos:sass',
@@ -124,20 +132,12 @@ export const skillsSection = {
       //   fontAwesomeClassname: 'logos:flutter',
       // },
       // {
-      //   skillName: 'swift',
-      //   fontAwesomeClassname: 'vscode-icons:file-type-swift',
-      // },
-      // {
       //   skillName: 'aws',
       //   fontAwesomeClassname: 'logos:aws',
       // },
       // {
       //   skillName: 'python',
       //   fontAwesomeClassname: 'logos:python',
-      // },
-      // {
-      //   skillName: 'docker',
-      //   fontAwesomeClassname: 'logos:docker-icon',
       // },
         ],
       }
