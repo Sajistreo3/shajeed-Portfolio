@@ -184,37 +184,55 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: 'Full-Stack Web developer',
+    role: 'Full-Stack Web Developer',
     company: 'Linen Chest',
     companylogo: lc,
-    date: 'August 2021 – Present',
-    desc:
-      'Working full time with Magento 2 for making Features and fixing Issues and bugs on the E-commerce website with Scrum Agile Methodoly',
+    date: 'August 2021 – August 2023',
+    desc: 'As a Full-Stack Web Developer at Linen Chest, I\'ve significantly expanded my skill set. Specializing in Magento 2 for backend development, I\'ve also gained substantial experience in ReactJS on the frontend. The role has provided me with a multi-faceted understanding of E-commerce development and has refined my proficiency in PHP, Magento 2, and ReactJS—all within an Agile Scrum framework.',
     descBullets: [
-      'E-commerce Development',
-      'Web Development with PHP, Magento 2',
+      'Profound understanding of E-commerce development',
+      'Deep experience with backend technologies like PHP and Magento 2',
+      'Hands-on experience with frontend technologies, particularly ReactJS',
+      'Agile and Scrum methodologies for efficient project management',
+      'Enhanced debugging and problem-solving skills'
     ],
   },
   {
-    role: 'Junior Full-Stack developer',
+    role: 'Junior Full-Stack Developer',
     company: 'Brossard App Design',
     companylogo: bad,
     date: 'August 2020 – March 2022',
-    desc:
-      'Worked on the development',
+    desc: 'In my role as a Junior Full-Stack Developer at Brossard App Design, I was entrusted with a variety of development tasks that enriched my technical portfolio. My hands-on experience with mobile app development using React Native complemented my web development skills in PHP, NodeJS, and JavaScript. This period served as an intense learning curve, sharpening my abilities across multiple technologies and frameworks.',
     descBullets: [
-      'Mobile app Development in React Native',
-      'Web Development with PHP, NodeJS, Javascript',
+      'Mobile app development using React Native',
+      'Versatile web development skills in PHP, NodeJS, and JavaScript',
+      'Understanding of full-stack development practices',
+      'Experience in cross-platform application development'
     ],
-  },
+  },  
   {
     role: 'Freelance Full-Stack Developer',
     company: 'Tekmadev',
     companylogo: sway,
     date: 'July 2019 – Present',
-    desc:
-      'As a Freelancer, I develop and find the solution to what the client asks with Software in Java and Created a PHP CMS Website and mobile application in React Native.',
+    desc: 'As a Freelance Full-Stack Developer at Tekmadev, I specialize in tailoring digital solutions that perfectly align with my clients\' needs. Leveraging a rich toolkit that includes Java for software development, PHP for CMS websites, and React Native for mobile applications, I pride myself on delivering high-quality, scalable, and customizable solutions. Each project serves as an opportunity for me to exceed client expectations and solidify my reputation in the tech industry.',
+    descBullets: [
+      'Proficiency in delivering custom software solutions using Java',
+      'Expertise in CMS development using PHP',
+      'Hands-on experience in mobile app development using React Native',
+      'Strong client communication and requirement analysis',
+      'Proven track record of project delivery within tight deadlines',
+      'In-depth understanding of E-commerce development, particularly in Magento 2',
+      'Solid experience in web development technologies like NodeJS and JavaScript',
+      'Familiarity with ReactJS for frontend development',
+      'Agile and Scrum methodologies for efficient project management',
+      'Enhanced debugging and problem-solving skills',
+      'Versatile skills across different development frameworks and libraries',
+      'Multi-faceted understanding of CRUD operations with Firebase',
+      'Experience in creating reusable frontend components'
+    ],
   },
+  
   // {
   //   role: 'Software Engineer Intern',
   //   company: 'Airbnb',
@@ -227,14 +245,30 @@ export const experience = [
 
 export const projects = [
   {
-    name: "Linen Chest",
-    desc: 'The project is about an E-Commerce website at Linen Chest directly using Magento 2 with PHP, Front-End Development with React',
+    name: "Sofan",
+    desc: 'The project, Sofan, is an all-encompassing NFT marketplace geared towards athletes. Built using React for the frontend and Firebase for the backend, it offers a range of functionalities beyond a simple marketplace. It also acts as a social media platform where users can submit posts, participate in polls, and engage with one another through likes, comments, and shares.',
     descBullets: [
-      'Creating Features and new Idea implementation',
-      'Web Development with PHP, Magento 2 with MVC',
-      'Worked with the E-commerce website in the cart section in React JS using hooks',
-      'Fix Bugs and problems',
-      'Working with admin panel and making new panels programmatically',
+      'Interactive posts featuring polls',
+      'Curated NFT collections exclusively from athletes',
+      'Customizable user dashboard',
+      'Real-time chat system',
+      'Complete CRUD operations powered and hosted by Firebase',
+      'A variety of specialized pages such as Home, Profile, Feed, Athletes, Events, and Suggestions'
+    ],
+    link: {
+      name: "Website",
+      url: "https://www.sofan.app/"
+    }
+  },
+  {
+    name: "Linen Chest",
+    desc: "Linen Chest is a dynamic E-commerce website developed on the Magento 2 platform, using PHP for backend operations and React for the frontend. The project encompasses various intricate features ranging from cart functionalities to admin panels, all designed to offer an intuitive shopping experience.",
+    descBullets: [
+      "Innovative feature development and idea implementation",
+      "Backend development using PHP and Magento 2 following MVC architecture",
+      "Advanced cart functionalities using React JS with hooks",
+      "Stringent bug fixes and troubleshooting",
+      "Customizable admin panels created programmatically for streamlined management"
     ],
     link: {
       name: "Website",
@@ -242,30 +276,14 @@ export const projects = [
     }
   },
   {
-    name: "Sofan",
-    desc: 'The project is about an NFT Market website for Athletes built out of React and backend from Firebase. There is also a Social platform for submitting posts and polls where users can interact, like, comment, and share.',
-    descBullets: [
-      'Posts with polls',
-      'NFT collection from Athletes',
-      'Dashboard',
-      'Chating System',
-      'a full CRUD handled and hosted from Firebase',
-      'Verious pages like Home, Profile, Feed, Athetes, events, suggestions, and more!'
-    ],
-    link: {
-      name: "Link",
-      url: "https://www.sofan.app/"
-    }
-  },
-  {
     name: "WhatsUp - Event Organizer",
-    desc: 'The project is a Mobile app for Booking and get together for Meetings and Events',
+    desc: 'WhatsUp - Event Organizer is a robust mobile application designed to facilitate the organization of meetings and events. Developed using React Native, the app boasts a series of high-quality, reusable frontend components and a stable backend implemented with Firebase.',
     descBullets: [
-      'Create different pages and implemented the back-end with Firebase',
-      'Development with React Native and various different Libraries',
-      'Made Front-end usefull and reusable components for Buttons, texts, and some layouts',
-      'Fix Bugs and problems',
-      'Work in a team of Agile and Sprint method',
+      'Comprehensive backend built with Firebase',
+      'Developed using React Native and a variety of libraries',
+      'Reusable frontend components for buttons, texts, and various layouts',
+      'Rigorous bug fixes and problem-solving',
+      'Developed following Agile methodologies with Sprint cycles'
     ],
     link: {
       name: "Screen Shot",
@@ -274,8 +292,14 @@ export const projects = [
   },
   {
     name: "GestionAHT",
-    desc: "It's a project of making a website for a client where I had to showcase his gas stations and his team, and the most important part is " + 
-    "there is a back-end made in PHP with a user CRUD system and an Evaluation system for the client's solution to be able to do inspections with his phone or PC and export it as a PDF.",
+    desc: "GestionAHT is a specialized web solution created for a client in the gas station business. It showcases the client's gas stations and team while offering a powerful backend. Developed using PHP, the platform provides a comprehensive user CRUD system and a unique evaluation system, allowing the client to perform inspections via mobile or PC and export the findings as PDFs.",
+    descBullets: [
+      "Showcases client's gas stations and team",
+      "Backend development with PHP",
+      "Robust user CRUD (Create, Read, Update, Delete) system",
+      "Mobile and PC-friendly evaluation system",
+      "PDF export capability for inspections"
+    ]
   },
   {
     name: "Restaurant Delivery System",
