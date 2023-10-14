@@ -221,17 +221,10 @@ export const experience = [
       'Expertise in CMS development using PHP',
       'Hands-on experience in mobile app development using React Native',
       'Strong client communication and requirement analysis',
-      'Proven track record of project delivery within tight deadlines',
-      'In-depth understanding of E-commerce development, particularly in Magento 2',
-      'Solid experience in web development technologies like NodeJS and JavaScript',
-      'Familiarity with ReactJS for frontend development',
-      'Agile and Scrum methodologies for efficient project management',
-      'Enhanced debugging and problem-solving skills',
-      'Versatile skills across different development frameworks and libraries',
-      'Multi-faceted understanding of CRUD operations with Firebase',
-      'Experience in creating reusable frontend components'
+      'Proven track record of project delivery within tight deadlines'
     ],
   },
+  
   
   // {
   //   role: 'Software Engineer Intern',
