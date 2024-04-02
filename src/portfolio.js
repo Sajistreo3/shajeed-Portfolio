@@ -7,7 +7,7 @@ import emoji from 'react-easy-emoji';
 import lc from './assets/img/icons/common/lc.png'
 import bad from './assets/img/icons/common/bad.png'
 import sway from './assets/img/icons/common/sway.png'
-import cv from './assets/docs/2023CVShajeed.pdf'
+import cv from './assets/docs/2024MarShajeedCV.pdf'
 
 export const greetings = {
     "name": "Shajeed Islam",
@@ -25,9 +25,15 @@ export const contact = {
 }
 
 export const socialLinks = {
+<<<<<<< HEAD
     "mail": "mailto:shajeed0@gmail.com",
     //"facebook": "https://www.facebook.com/sajeed99",
     "instagram": "https://www.instagram.com/its.shajeed/",
+=======
+    "mail": "mailto:kazishajeed@gmail.com",
+    // "facebook": "https://www.facebook.com/sajeed99",
+    "instagram": "https://www.instagram.com/its.shajeed",
+>>>>>>> 6285b87 (CV update)
     "twitter": "https://twitter.com/shajeedul",
     "github": "https://github.com/Sajistreo3",
     "linkedin": "https://www.linkedin.com/in/sajistreo3/"
@@ -123,10 +129,10 @@ export const skillsSection = {
       //   skillName: 'sass',
       //   fontAwesomeClassname: 'logos:sass',
       // },
-      // {
-      //   skillName: 'TypeScript',
-      //   fontAwesomeClassname: 'logos:typescript-icon',
-      // },
+      {
+        skillName: 'TypeScript',
+        fontAwesomeClassname: 'logos:typescript-icon',
+      },
       // {
       //   skillName: 'flutter',
       //   fontAwesomeClassname: 'logos:flutter',
@@ -135,10 +141,10 @@ export const skillsSection = {
       //   skillName: 'aws',
       //   fontAwesomeClassname: 'logos:aws',
       // },
-      // {
-      //   skillName: 'python',
-      //   fontAwesomeClassname: 'logos:python',
-      // },
+      {
+        skillName: 'python',
+        fontAwesomeClassname: 'logos:python',
+      },
         ],
       }
       
