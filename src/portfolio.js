@@ -25,15 +25,9 @@ export const contact = {
 }
 
 export const socialLinks = {
-<<<<<<< HEAD
-    "mail": "mailto:shajeed0@gmail.com",
-    //"facebook": "https://www.facebook.com/sajeed99",
-    "instagram": "https://www.instagram.com/its.shajeed/",
-=======
     "mail": "mailto:kazishajeed@gmail.com",
     // "facebook": "https://www.facebook.com/sajeed99",
     "instagram": "https://www.instagram.com/its.shajeed",
->>>>>>> 6285b87 (CV update)
     "twitter": "https://twitter.com/shajeedul",
     "github": "https://github.com/Sajistreo3",
     "linkedin": "https://www.linkedin.com/in/sajistreo3/"
