@@ -188,7 +188,7 @@ export const experience = [
     company: 'Linen Chest',
     companylogo: lc,
     date: 'August 2021 – August 2023',
-    desc: 'As a Full-Stack Web Developer at Linen Chest, I\'ve significantly expanded my skill set. Specializing in Magento 2 for backend development, I\'ve also gained substantial experience in ReactJS on the frontend. The role has provided me with a multi-faceted understanding of E-commerce development and has refined my proficiency in PHP, Magento 2, and ReactJS—all within an Agile Scrum framework.',
+    desc: 'As a Full-Stack Web Developer at Linen Chest, I\'ve significantly expanded my skill set. Specializing in Magento 2 for backend development, I\'ve also gained substantial experience in ReactJS on the frontend. The role has provided me with a multi-faceted understanding of E-commerce development and has refined my proficiency in PHP, Magento 2, and ReactJS—all within an Agile Scrum methodology.',
     descBullets: [
       'Profound understanding of E-commerce development',
       'Deep experience with backend technologies like PHP and Magento 2',
