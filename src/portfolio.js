@@ -184,6 +184,20 @@ export const educationInfo = [
 
 export const experience = [
   {
+    role: 'Freelance Full-Stack Developer',
+    company: 'Tekmadev',
+    companylogo: sway,
+    date: 'July 2019 – Present',
+    desc: 'As a Freelance Full-Stack Developer at Tekmadev, I specialize in tailoring digital solutions that perfectly align with my clients\' needs. Leveraging a rich toolkit that includes Java for software development, PHP for CMS websites, and React Native for mobile applications, I pride myself on delivering high-quality, scalable, and customizable solutions. Each project serves as an opportunity for me to exceed client expectations and solidify my reputation in the tech industry.',
+    descBullets: [
+      'Proficiency in delivering custom software solutions using Java',
+      'Expertise in CMS development using PHP',
+      'Hands-on experience in mobile app development using React Native',
+      'Strong client communication and requirement analysis',
+      'Proven track record of project delivery within tight deadlines'
+    ],
+  },
+  {
     role: 'Full-Stack Web Developer',
     company: 'Linen Chest',
     companylogo: lc,
@@ -210,20 +224,6 @@ export const experience = [
       'Experience in cross-platform application development'
     ],
   },  
-  {
-    role: 'Freelance Full-Stack Developer',
-    company: 'Tekmadev',
-    companylogo: sway,
-    date: 'July 2019 – Present',
-    desc: 'As a Freelance Full-Stack Developer at Tekmadev, I specialize in tailoring digital solutions that perfectly align with my clients\' needs. Leveraging a rich toolkit that includes Java for software development, PHP for CMS websites, and React Native for mobile applications, I pride myself on delivering high-quality, scalable, and customizable solutions. Each project serves as an opportunity for me to exceed client expectations and solidify my reputation in the tech industry.',
-    descBullets: [
-      'Proficiency in delivering custom software solutions using Java',
-      'Expertise in CMS development using PHP',
-      'Hands-on experience in mobile app development using React Native',
-      'Strong client communication and requirement analysis',
-      'Proven track record of project delivery within tight deadlines'
-    ],
-  },
   
   
   // {
