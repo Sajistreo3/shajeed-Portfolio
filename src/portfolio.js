@@ -254,6 +254,21 @@ export const projects = [
     }
   },
   {
+    name: "Coq O Bec Restaurant",
+    desc: 'Coq-O-Bec Gouin is a restaurant website designed to showcase a variety of chicken dishes and bakery items. Built with modern web technologies, it focuses on delivering a user-friendly experience for customers to explore the menu and connect with the restaurant.',
+    descBullets: [
+      'Responsive Design: Optimized for both desktop and mobile users.',
+      'Dynamic Menu: Easily updateable sections for dishes and bakery items.',
+      'Contact & Location Integration: Google Maps integration for easy navigation.',
+      'Custom CMS: Backend for managing content and updating site information.',
+      'Daily Operations Details: Showcasing opening hours and services.',
+    ],
+    link: {
+      name: "Website",
+      url: "https://www.coqobecgouin.com"
+    }
+  },
+  {
     name: "Linen Chest",
     desc: "Linen Chest is a dynamic E-commerce website developed on the Magento 2 platform, using PHP for backend operations and React for the frontend. The project encompasses various intricate features ranging from cart functionalities to admin panels, all designed to offer an intuitive shopping experience.",
     descBullets: [
