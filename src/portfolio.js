@@ -1,4 +1,4 @@
-import emoji from 'react-easy-emoji';
+// import emoji from 'react-easy-emoji';
 
 
 // import googlelogo from './assets/img/icons/common/google.svg'
