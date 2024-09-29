@@ -6,8 +6,8 @@ import emoji from 'react-easy-emoji';
 // import airbnb from './assets/img/icons/common/airbnbLogo.png'
 import lc from './assets/img/icons/common/lc.png'
 import bad from './assets/img/icons/common/bad.png'
-import sway from './assets/img/icons/common/sway.png'
-import cv from './assets/docs/2024JulyShajeedCV.pdf'
+import sway from './assets/img/icons/common/Tekmadev_Logo.svg'
+import cv from './assets/docs/2024OctShajeedCV.pdf'
 
 export const greetings = {
     "name": "Shajeed Islam",
@@ -28,7 +28,7 @@ export const socialLinks = {
     "mail": "mailto:kazishajeed@gmail.com",
     // "facebook": "https://www.facebook.com/sajeed99",
     "instagram": "https://www.instagram.com/its.shajeed",
-    "twitter": "https://twitter.com/shajeedul",
+    "twitter": "https://x.com/itsShajeed",
     "github": "https://github.com/Sajistreo3",
     "linkedin": "https://www.linkedin.com/in/sajistreo3/"
 }
@@ -37,12 +37,12 @@ export const skillsSection = {
     title: 'What I do',
     subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
     skills: [
-      emoji(
+      (
         '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
       ),
-      emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
-      emoji(
-        '⚡ Integration of third party services such as AWS / Digital Ocean'
+      ('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
+      (
+        '⚡ Integration of third party services such as AWS / Firebase / Vercel'
       ),
     ],
     
@@ -62,6 +62,10 @@ export const skillsSection = {
       {
         skillName: 'reactjs',
         fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
+      },
+      {
+        skillName: 'nextjs',
+        fontAwesomeClassname: 'vscode-icons:file-type-light-next',
       },
       {
         skillName: 'reactNative',
@@ -119,10 +123,10 @@ export const skillsSection = {
         skillName: 'docker',
         fontAwesomeClassname: 'logos:docker-icon',
       },
-      // {
-      //   skillName: 'sass',
-      //   fontAwesomeClassname: 'logos:sass',
-      // },
+      {
+        skillName: 'sass',
+        fontAwesomeClassname: 'logos:sass',
+      },
       {
         skillName: 'TypeScript',
         fontAwesomeClassname: 'logos:typescript-icon',
@@ -131,10 +135,10 @@ export const skillsSection = {
       //   skillName: 'flutter',
       //   fontAwesomeClassname: 'logos:flutter',
       // },
-      // {
-      //   skillName: 'aws',
-      //   fontAwesomeClassname: 'logos:aws',
-      // },
+      {
+        skillName: 'aws',
+        fontAwesomeClassname: 'logos:aws',
+      },
       {
         skillName: 'python',
         fontAwesomeClassname: 'logos:python',
@@ -237,6 +241,22 @@ export const experience = [
 ]
 
 export const projects = [
+  {
+    name: "Promptarium",
+    desc: 'Promptarium is an open-source platform where users can explore, create, and share AI-powered prompts. Built using Next.js and integrated with MongoDB for database management, the platform leverages AI tools to assist users in generating effective prompts.',
+    descBullets: [
+      'Interactive posts featuring prompts and tags',
+      'Challenges: Building a seamless real-time interaction system using Next.js and MongoDB to handle user-generated content.',
+      'Prompt Creation: Users can create their own prompts and share them with the community.',
+      'Google Authentication for secure user login.',
+      'Advanced Search functionality that lets users search prompts by username, tags, or prompt content',
+      'Prompt Discovery & Creation: Users can browse and contribute to a growing library of prompts'
+    ],
+    link: {
+      name: "Web App",
+      url: "http://promptarium.vercel.app"
+    }
+  },
   {
     name: "Sofan",
     desc: 'The project, Sofan, is an all-encompassing NFT marketplace geared towards athletes. Built using React for the frontend and Firebase for the backend, it offers a range of functionalities beyond a simple marketplace. It also acts as a social media platform where users can submit posts, participate in polls, and engage with one another through likes, comments, and shares.',
